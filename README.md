@@ -26,7 +26,7 @@
 ### Codex
 
 ```powershell
-git clone https://github.com/dehuamading/help-me-understand-skill.git $env:USERPROFILE\.codex\skills\help-me-understand
+git clone https://github.com/dehuamading/help-me-understand-skill.git (Join-Path $env:USERPROFILE '.codex\skills\help-me-understand')
 ```
 
 重启 Codex 后，用「帮我看懂……」或「这个过程画出来」触发。
